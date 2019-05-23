@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 import sys;sys.path.append('..')
 import scrapy
-from items import CtripSpotItem
+# from items import CtripSpotItem
+from ctrip_spot.items import CtripSpotItem
 from scrapy.crawler import CrawlerProcess # 方法一导入
 
 from scrapy.utils.project import get_project_settings # 方法二新增
